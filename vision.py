@@ -15,7 +15,7 @@ model = models.Sequential([
     layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
     layers.MaxPooling2D((2, 2)),
     
-    # Another convolutional layer with 64 filters
+    # Another convolutional layer with 64 filterspyth
     layers.Conv2D(64, (3, 3), activation='relu'),
     layers.MaxPooling2D((2, 2)),
     
